@@ -1,25 +1,21 @@
 .header {
-
-	background-color: DarkSlateBlue;
+    background-color: DarkSlateBlue;
 	width: 1440px;
 	height: 200px;
 }
 .myName {
 	align-content: left;
-	position: absolute;
 	font-family: sans-serif;
 	color: white;
 	padding: 80px;
-	latter-spacing: 5px;
+	latter-spacing: 7px;
 }
 
 .image1 {
-	background-image: url("/img/img1.jpg");
-	width: 1440px;
+	background-image: url("../img/img1.jpg");
+	height: 1000px;
+	weight: 1440px;
 }
-
-
-
 .link {
 	color: ghostwhite;
 	text-decoration: underline;
@@ -38,14 +34,12 @@
 .navigation {
 	background-color: DarkSlateBlue;
 	width: 1440px;
-	height: 200px;
+	height: 100px;
 	color: ghostwhite;
-	align:  bottom;
 	padding:  10px;
 	font-family: sans-serif;
 }
-.aboutMe {
-	padding: 20px;
-	font-family: sans-serif;
+.aboutMe {	
 	letter-spacing: 3px;
+	font-family: sans-serif;
 }
