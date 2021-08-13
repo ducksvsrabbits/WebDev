@@ -42,4 +42,12 @@
 .aboutMe {	
 	letter-spacing: 3px;
 	font-family: sans-serif;
+	padding: 80px;
+}
+.footer {
+
+}
+
+.img2 {
+padding: top 77px, left 80px, bottom 77px;
 }
