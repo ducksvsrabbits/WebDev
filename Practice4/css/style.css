@@ -36,7 +36,7 @@
 	width: 1440px;
 	height: 100px;
 	color: ghostwhite;
-	padding:  10px;
+	padding:  top 36px, left 80px, bottom 35px;
 	font-family: sans-serif;
 }
 .aboutMe {	
@@ -45,9 +45,11 @@
 	padding: 80px;
 }
 .footer {
-
+	width: 1440px;
+	height: 200px;
+	background-color: DarkSlateBlue;
 }
 
-.img2 {
+.image2 {
 padding: top 77px, left 80px, bottom 77px;
 }
