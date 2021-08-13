@@ -1,0 +1,19 @@
+@font-face {
+	src: url(../font/font.ttf);
+	font-family: 'font';
+	font-weight: normal;
+}
+.header h1 {
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	font-family: cursive 'arial';
+	font-family: 'font', serif;
+}
+.paragraph p {
+	font-family: 'PT Sans', sans-serif;
+}
+.paragraphTwo p {
+	font-family: 'Arimo', sans-serif;
+
+}

@@ -1,0 +1,51 @@
+.header {
+
+	background-color: DarkSlateBlue;
+	width: 1440px;
+	height: 200px;
+}
+.myName {
+	align-content: left;
+	position: absolute;
+	font-family: sans-serif;
+	color: white;
+	padding: 80px;
+	latter-spacing: 5px;
+}
+
+.image1 {
+	background-image: url("/img/img1.jpg");
+	width: 1440px;
+}
+
+
+
+.link {
+	color: ghostwhite;
+	text-decoration: underline;
+}
+
+.link:hover {
+	color: ghostwhite;
+	text-decoration: none;	
+}
+
+.link:visited {
+	color: khaki;
+	text-decoration: underline;	
+}
+
+.navigation {
+	background-color: DarkSlateBlue;
+	width: 1440px;
+	height: 200px;
+	color: ghostwhite;
+	align:  bottom;
+	padding:  10px;
+	font-family: sans-serif;
+}
+.aboutMe {
+	padding: 20px;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+}
