@@ -39,7 +39,7 @@
 	padding:  top 36px, left 80px, bottom 35px;
 	font-family: sans-serif;
 }
-.aboutMe {	
+main .aboutMe {	
 	letter-spacing: 3px;
 	font-family: sans-serif;
 	padding: 80px;
@@ -51,5 +51,5 @@
 }
 
 .image2 {
-padding: top 77px, left 80px, bottom 77px;
+	padding: top 77px, left 80px, bottom 77px;
 }
