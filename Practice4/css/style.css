@@ -1,9 +1,10 @@
-.header {
-    background-color: DarkSlateBlue;
+.header div {
+    background-color: greenyellow;
 	width: 1440px;
 	height: 200px;
 }
-.myName {
+
+#myName {
 	align-content: left;
 	font-family: sans-serif;
 	color: white;
@@ -11,45 +12,50 @@
 	latter-spacing: 7px;
 }
 
-.image1 {
+#image1 {
 	background-image: url("../img/img1.jpg");
 	height: 1000px;
 	weight: 1440px;
 }
-.link {
-	color: ghostwhite;
-	text-decoration: underline;
+
+.navigation {
+	background-color: greenyellow;
+	width: 1440px;
+	height: 200px;
+	color: GhostWhite;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-family: sans-serif;
 }
 
-.link:hover {
-	color: ghostwhite;
-	text-decoration: none;	
-}
-
-.link:visited {
-	color: khaki;
+#link {
+	color: GhostWhite;
 	text-decoration: underline;	
 }
 
-.navigation {
-	background-color: DarkSlateBlue;
-	width: 1440px;
-	height: 100px;
-	color: ghostwhite;
-	padding:  top 36px, left 80px, bottom 35px;
-	font-family: sans-serif;
-}
-main .main .aboutMe {	
-	letter-spacing: 3px;
-	font-family: sans-serif;
-	padding: 80px;
-}
-.footer {
-	width: 1440px;
-	height: 200px;
-	background-color: DarkSlateBlue;
+#link:hover {
+	color: GhostWhite;
+	text-decoration: none;	
 }
 
-.image2 {
+#link:visited {
+	color: Beige;
+	text-decoration: underline;	
+}
+
+.main #aboutMe {	
+	letter-spacing: 3px;
+	font-family: sans-serif;
+	padding-top: 80px ;
+	padding-bottom: 80px;
+}
+
+#footer {
+	width: 1440px;
+	height: 200px;
+	background-color: greenyellow;
+}
+
+#image2 {
 	padding: top 77px, left 80px, bottom 77px;
 }
