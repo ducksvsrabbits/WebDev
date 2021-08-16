@@ -12,9 +12,10 @@
 .navigation {
 	background-color: greenyellow;
 	color: Orchid;
+	font-family: sans-serif;
 	padding-top: 80px;
 	padding-bottom: 80px;
-	font-family: sans-serif;
+	padding-left: 80px;
 }
 
 .link {
