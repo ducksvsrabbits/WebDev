@@ -2,14 +2,10 @@
 	width: 1440px;
 }
 
-.header {
-    background-color: greenyellow;
-	padding: 80px;
-}
-
 .my-name {
 	font-family: sans-serif;
 	color: Orchid;
+	background-color: greenyellow;
 	padding: 80px;
 }
 
