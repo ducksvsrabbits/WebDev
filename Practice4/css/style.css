@@ -6,6 +6,8 @@
 	font-family: sans-serif;
 	color: Orchid;
 	background-color: greenyellow;
+	font-size: 25px;
+	font-weight: bold;
 	padding: 80px;
 }
 
@@ -42,13 +44,18 @@
 }
 
 .footer {
+	background-image: url("../img/img2.png");
+	background-position: left;
+	background-repeat: no-repeat;
 	height: 200px;
+	weight: 1440;
 	background-color: greenyellow;
 }
 
-.image2 {
-	padding: top 77px, left 80px, bottom 77px;
-	background-image: url("img/img2.png");
-	background-size: 100%;
-
+.footer h3 {
+	padding: top 77px, right 80px, bottom 77px;
+	font-size: 20px;
+	text-align: right;
+	text-decoration-color: Orchid;
+	font-family: sans-serif;
 }
