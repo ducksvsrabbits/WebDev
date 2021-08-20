@@ -47,15 +47,15 @@
 	background-image: url("../img/img2.png");
 	background-position: left;
 	background-repeat: no-repeat;
-	height: 200px;
-	weight: 1440;
 	background-color: greenyellow;
+	height: 200px;
+	padding: 0px;
 }
 
 .footer h3 {
-	padding: top 77px, right 80px, bottom 77px;
+	padding: 80px;
 	font-size: 20px;
 	text-align: right;
-	text-decoration-color: Orchid;
+	color: Orchid;
 	font-family: sans-serif;
 }
