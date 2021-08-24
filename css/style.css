@@ -45,10 +45,14 @@
 
 .footer {
 	background-image: url("../img/img2.png");
+	background-size: 200px;
 	background-position: left;
 	background-repeat: no-repeat;
+	background-size: initial;
 	background-color: greenyellow;
-	padding: right 80px, top 80 px, bottom 80px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-right: 80px;
 }
 
 .h3 {
