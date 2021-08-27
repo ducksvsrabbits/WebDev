@@ -13,40 +13,43 @@ body {
 	text-align: center;
 }
 
-.one .two .three {
+.column {
 	height: 800px;
 	width: 400px;
 	border: 5px solid yellow;
 	border-radius: 30px;
 	color: black;
 	position: absolute;
+	display: inline-block;
 }
 
-h1 {
-	font-size: 20px;
-}
-.one {
+div.one{
 	top: 112px;
 	left: 70px;
 }
 
-.two {
+div.two {
 	top: 112px;
 	left: 520px;
 }
 
-.three {
+div.three {
 	top: 112px;
 	left: 970px;
 }
 
+h1 {
+	text-align: left;
+	padding: 97px 33px 33px 33px;
+	font-size: 20px;
+}
+
+p {
+	text-align: left;
+	padding: 0px 33px 33px 33px;
+}
 .footer {
 	background-color: red;
 	color: white;
 	padding: 20px 1250px 20px 20px;
-}
-
-.one .two .three h1 p {
-	text-align: left;
-	padding: 97px 33px 33px 33px;
 }
