@@ -1,0 +1,39 @@
+@import url(reset.css);
+
+section {
+	height: 600px;
+	border: solid black 1px;
+}
+
+.inner {
+	height: 500px;
+	width: 500px;
+
+}
+
+.absolute {
+	position: relative;
+
+}
+.static .inner {
+	background-color: red;
+	position: static;
+	margin: 50px;
+}
+.relative .inner {
+	background-color: orange;
+	position: relative;
+	top: 50px;
+	right: 50px;
+}
+.absolute .inner {
+	background-color: violet;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+.fixed .inner {
+	background-color: green;
+	position: fixed;
+}

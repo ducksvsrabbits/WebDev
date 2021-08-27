@@ -1,0 +1,50 @@
+body {
+	width: 1440px;
+}
+.header {
+	height: 60px;
+	background-color: red;
+	color: white;
+	padding: 20px 600px 20px 20px;
+}
+.one .two .three {
+	height: 800px;
+	width: 400px;
+	border: 5px;
+	border-radius: 30px;
+	border-color: yellow;
+	color: black;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.main {
+	display: inline-block;
+}
+
+.one {
+	top: 112px;
+	left: 70px;
+}
+
+.two {
+	top: 112px;
+	left: 520px;
+}
+
+.three {
+	top: 112px;
+	left: 970px;
+}
+
+.footer {
+	background-color: red;
+	color: white;
+	padding: 20px 1250px 20px 20px;
+}
+
+.one .two .three h1 p {
+	padding: 97px 33px 33px 33px;
+}
