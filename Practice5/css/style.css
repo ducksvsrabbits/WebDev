@@ -9,6 +9,7 @@ body {
 }
 
 .main {
+	height: 940px;
 	display: inline-block;
 	text-align: center;
 }
@@ -19,8 +20,11 @@ body {
 	border: 5px solid yellow;
 	border-radius: 30px;
 	color: black;
+	vertical-align: center;
 	position: absolute;
 	display: inline-block;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 div.one{
@@ -40,7 +44,7 @@ div.three {
 
 h1 {
 	text-align: left;
-	padding: 97px 33px 33px 33px;
+	padding: 33px 33px 33px 33px;
 	font-size: 20px;
 }
 
