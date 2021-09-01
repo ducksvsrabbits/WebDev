@@ -18,6 +18,7 @@ body {
 	height: 40px;
 	width: 120px;
 	padding: 50px 0px 50px 50px;
+	position: absolute;
 	line-height: 57,5px;
 	left: 0px;
 	top: 0px;
