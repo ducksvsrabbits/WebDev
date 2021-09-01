@@ -1,0 +1,167 @@
+body {
+	width: 1440px;
+	font-family: Arial;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.header {
+	height: 140px;
+	font-size: 50px;
+	color: #E50043;
+	display: flex;
+}		
+.name {
+	height: 40px;
+	width: 120px;
+	padding: 50px 0px 50px 50px;
+	line-height: 57,5px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 50px;
+	line-height: 57px;
+	align-items: center;
+}
+
+.link {
+	height: 40px;
+	width: 130px;
+	position: absolute;
+	padding: 50px 50px 50px;
+	left: 0px;
+	top: 0px;
+	line-height: 57px;
+	align-items: center;
+	word-wrap: normal
+}
+.one {
+	padding-left: 950px;
+}
+.two {
+	padding-left: 1105px;
+}
+.three {
+	padding-left: 1260px;
+}
+.text{
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.image {
+	width: 1440px;
+	height: 950px;
+	position: relative;
+}
+p.logo-text {	
+	position: absolute;
+	font-size: 100px;
+	line-height: 115px;
+	color: #E50043;
+	text-align: center;
+}
+
+div.main-text {
+	position: absolute;
+	width: 1040px;
+	height: 280px;
+	left: 201px;
+	top: 1240px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+.main-text {
+	position: absolute;
+	width: 992px;
+	height: 232px;
+	padding: 5px;
+	margin: auto;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+.wang {
+	position: absolute;
+	width: 281px;
+	height: 863px;
+	left: 200px;
+	top: 150px;
+	background: url(../img/wang.png);
+}
+.wang div {
+	position: absolute;
+	width: 248px;
+	height: 58px;
+	left: 216px;
+	top: 1491px;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+
+}
+.blue {
+	position: absolute;
+	width: 279px;
+	height: 863px;
+	left: 581px;
+	top: 150px;
+	background: url(../img/blue.png);
+}
+.chiara {
+	position: absolute;
+ 	width: 280px;
+ 	height: 863px;
+	left: 960px;
+	top: 150px;	
+	background: url(../img/chiara.png);
+}
+.info {
+	position: absolute;
+	width: 1040px;
+	height: 280px;
+	left: 201px;
+	top: 150px;	
+	border: 3px solid #F8BFC7;
+ 	box-sizing: border-box;
+	border-radius: 20px;
+	margin: 50px;
+}
+p.info {
+	position: absolute;
+	width: 749px;
+	height: 220px;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+	color: #000000;
+	padding: 24px;
+}
+
+.copiright {
+	position: absolute;
+	width: 1440px;
+	height: 140px;
+	top: 2129px;
+	background: #F8BFC7;
+	position: absolute;
+	width: 330px;
+	height: 40px;
+	padding: 50px 1060px 50px 50px;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+
+}

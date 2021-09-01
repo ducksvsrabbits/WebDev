@@ -1,0 +1,17 @@
+
+.flex-container {
+	height: 300px;
+	background-color: blue;
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-item {
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	margin: auto;
+}
+.flex-item.one {
+
+}
