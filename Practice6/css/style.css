@@ -11,6 +11,7 @@ body {
 	font-size: 50px;
 	color: #E50043;
 	display: flex;
+	flex-wrap: nowrap;
 }		
 .name {
 	height: 40px;
