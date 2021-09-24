@@ -30,7 +30,7 @@ body {
 	flex-basis: 100%;
 }
 
-div.text{
+div.image.text{
 	display: flex;
 	align-items: center;
 	align-content: center;
@@ -55,9 +55,8 @@ div.main-text {
 	border-radius: 20px;
 }
 
-.main-text {
+p.main-text {
 	padding: 24px;
-	margin: auto;
 	font-size: 25px;
 	line-height: 29px;
 	display: flex;
