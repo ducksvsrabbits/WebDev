@@ -44,10 +44,12 @@ div.main-text {
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
+	justify-content: center;
+	margin: 150px;
 }
 
 p.main-text {
-	padding: 24px;
+	padding-left: 24px;
 	font-size: 25px;
 	line-height: 29px;
 	display: flex;
@@ -59,9 +61,11 @@ p.main-text {
 	display: flex;
 }
 .wang {
+	padding: 100px;
 	width: 281px;
 	height: 863px;
 	background: url(../img/wang.png);
+	background-repeat: no-repeat;
 }
 .wang div {
 	width: 248px;
@@ -74,14 +78,18 @@ p.main-text {
 
 }
 .blue {
+	padding: 100px;
 	width: 279px;
 	height: 863px;
 	background: url(../img/blue.png);
+	background-repeat: no-repeat;
 }
 .chiara {
+	padding: 100px;
  	width: 280px;
  	height: 863px;
 	background: url(../img/chiara.png);
+	background-repeat: no-repeat;
 }
 .info {
 	width: 1040px;
