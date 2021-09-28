@@ -5,35 +5,26 @@ body {
 }
 
 .header {
-	width: 1440px;
+	height: 140px;
 	font-size: 50px;
 	color: #E50043;
 	display: flex;
 	flex-wrap: nowrap;
-	position: fixed;
+	justify-content: space-between;
 }		
 .name {
-	display: flex;
 	padding: 50px;
 	line-height: 57,5px;
 	font-size: 50px;
 	margin: initial;
 }
-
-.link {
+.links {
 	display: flex;
-	margin: right;
-	padding: 50px;
-	word-wrap: normal;
-	flex-direction: row;
-	justify-content: flex-end;
-	flex-basis: 100%;
+	list-style: none;
 }
 
 div.image.text{
 	display: flex;
-	align-items: center;
-	align-content: center;
 }
 .image {
 	display: flex;
@@ -44,7 +35,7 @@ div.image.text{
 .logo-text {	
 	font-size: 100px;
 	color: #E50043;
-	align-content: center;
+	margin: auto;
 }
 
 div.main-text {
