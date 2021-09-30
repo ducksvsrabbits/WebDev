@@ -21,6 +21,9 @@ body {
 .links {
 	display: flex;
 	list-style: none;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
 }
 
 div.image.text{
@@ -67,7 +70,7 @@ p.main-text {
 	background: url(../img/wang.png);
 	background-repeat: no-repeat;
 }
-.wang div {
+.text-wang {
 	width: 248px;
 	height: 58px;
 	font-size: 25px;
@@ -84,12 +87,30 @@ p.main-text {
 	background: url(../img/blue.png);
 	background-repeat: no-repeat;
 }
+.text-blue {
+	width: 248px;
+	height: 58px;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+}
 .chiara {
 	padding: 100px;
  	width: 280px;
  	height: 863px;
 	background: url(../img/chiara.png);
 	background-repeat: no-repeat;
+}
+.text-chiara {
+	width: 248px;
+	height: 58px;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	text-align: center;
+	color: #000000;
 }
 .info {
 	width: 1040px;
