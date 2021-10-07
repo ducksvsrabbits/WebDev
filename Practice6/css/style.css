@@ -11,6 +11,7 @@ body {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+	position: fixed;
 }		
 .name {
 	padding: 50px;
@@ -20,10 +21,12 @@ body {
 }
 .links {
 	display: flex;
+	padding: 50px;
 	list-style: none;
 	font-family: Arial;
 	font-size: 50px;
 	line-height: 57px;
+	justify-content: flex-end;
 }
 
 div.image.text{
@@ -69,6 +72,9 @@ p.main-text {
 	height: 863px;
 	background: url(../img/wang.png);
 	background-repeat: no-repeat;
+	left: 987px;
+top: 2575px;
+
 }
 .text-wang {
 	width: 248px;
