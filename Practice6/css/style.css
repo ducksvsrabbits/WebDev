@@ -3,38 +3,33 @@ body {
 	font-family: Arial;
 	font-family: sans-serif;
 }
-
 .header {
-	height: 140px;
+	width: 140px;
 	font-size: 50px;
 	color: #E50043;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	position: fixed;
+	height: 100%;
+	align-items: center;
 }		
 .name {
-	padding: 50px;
+	margin: 50px;
 	line-height: 57,5px;
 	font-size: 50px;
-	margin: initial;
 }
 .links {
 	display: flex;
-	padding: 50px;
+	margin: 50px;
 	list-style: none;
 	font-family: Arial;
 	font-size: 50px;
 	line-height: 57px;
-	justify-content: flex-end;
+	text-decoration: none;
 }
-
-div.image.text{
+.image-logo {
 	display: flex;
-}
-.image {
-	display: flex;
-	width: 1440px;
 	height: 950px;
 	background-image: url(../img/evian_origins_logo.png);
 }
@@ -45,7 +40,6 @@ div.image.text{
 }
 
 div.main-text {
-	width: 1040px;
 	height: 280px;
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
@@ -72,9 +66,6 @@ p.main-text {
 	height: 863px;
 	background: url(../img/wang.png);
 	background-repeat: no-repeat;
-	left: 987px;
-top: 2575px;
-
 }
 .text-wang {
 	width: 248px;
@@ -117,6 +108,9 @@ top: 2575px;
 	align-items: center;
 	text-align: center;
 	color: #000000;
+}
+.glass{
+	padding: 50px;
 }
 .info {
 	width: 1040px;
