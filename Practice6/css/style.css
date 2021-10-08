@@ -1,16 +1,22 @@
 body {
-	width: 1440px;
 	font-family: Arial;
 	font-family: sans-serif;
 }
 .header {
-	width: 140px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+}		
+.header-block {
+	width: 100%;
 	font-size: 50px;
 	color: #E50043;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	position: fixed;
 	height: 100%;
 	align-items: center;
 }		
@@ -23,98 +29,92 @@ body {
 	display: flex;
 	margin: 50px;
 	list-style: none;
+	text-decoration: none;
+	text-decoration: none;
+}
+.links-item { 
+	margin-right: 20px 
+	} 
+.links-item:last-child { 
+	margin-right: 0;
+
+}
+.links-item a {
+	text-decoration: none;
 	font-family: Arial;
 	font-size: 50px;
 	line-height: 57px;
-	text-decoration: none;
+	color: #E50043;
 }
+
 .image-logo {
 	display: flex;
-	height: 950px;
+	height: 100vh;
 	background-image: url(../img/evian_origins_logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .logo-text {	
 	font-size: 100px;
 	color: #E50043;
 	margin: auto;
 }
+.main-block-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
 
-div.main-text {
-	height: 280px;
+.main-block {
+	width: 1040px;
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
 	justify-content: center;
-	margin: 150px;
+	display: flex;
+	padding: 24px;
 }
 
-p.main-text {
-	padding-left: 24px;
+.main-text {
 	font-size: 25px;
 	line-height: 29px;
-	display: flex;
 	letter-spacing: 0.05em;
 	color: #000000;
 }
-
+.main-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .bottles {
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.wang {
-	padding: 100px;
-	width: 281px;
-	height: 863px;
-	background: url(../img/wang.png);
-	background-repeat: no-repeat;
+.bottles-item {
+	display: flex;
+	flex-direction: column;
 }
-.text-wang {
-	width: 248px;
-	height: 58px;
+.bottles-text {
+	margin-top: 42px;
 	font-size: 25px;
 	line-height: 29px;
-	align-items: center;
 	text-align: center;
 	color: #000000;
 
 }
-.blue {
-	padding: 100px;
-	width: 279px;
-	height: 863px;
-	background: url(../img/blue.png);
-	background-repeat: no-repeat;
-}
-.text-blue {
-	width: 248px;
-	height: 58px;
-	font-size: 25px;
-	line-height: 29px;
-	align-items: center;
-	text-align: center;
-	color: #000000;
-}
-.chiara {
-	padding: 100px;
- 	width: 280px;
- 	height: 863px;
-	background: url(../img/chiara.png);
-	background-repeat: no-repeat;
-}
-.text-chiara {
-	width: 248px;
-	height: 58px;
-	font-size: 25px;
-	line-height: 29px;
-	align-items: center;
-	text-align: center;
-	color: #000000;
+.bottles-block {
+	width: 1040px;
+	display: flex;
+	justify-content: space-between;
 }
 .glass{
 	padding: 50px;
 }
 .info {
-	width: 1040px;
-	height: 280px;
 	border: 3px solid #F8BFC7;
  	box-sizing: border-box;
 	border-radius: 20px;
