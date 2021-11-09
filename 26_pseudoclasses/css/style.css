@@ -1,0 +1,28 @@
+a {
+	display: block;
+	height: 50px;
+	width: 200px;
+	background-color: #blue;
+	color: wheat;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+a:hover {
+	background-color: red;
+}
+a:active {
+	box-shadow: 0 0 10px grey;
+	color: yellow;
+}
+
+a:visited {
+	color: lightgrey;
+}
+
+a:link {
+	background-color: yellow;
+}

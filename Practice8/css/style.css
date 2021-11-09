@@ -1,0 +1,54 @@
+@font-face {
+font-family: "ptserif"; 
+src: url("../fonts/PTF55F.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+.header {
+	display: flex;
+	width: 100vw;
+	max-height: 50px;
+	background-color: yellow;
+	font-size: 20px;
+	margin: auto;
+}
+
+.page {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.column {
+	display: flex;
+	width: calc((100% - 30px)/3);
+	min-height: 80vh;
+	border: 1px solid black;
+}
+.img1 {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	background-image: url(../img/астралийская_овчарка.jpeg);
+}
+.img1 {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	background-image: url(../img/астралийская_овчарка.jpeg);
+}
+.img2 {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	background-image: url(../img/австралийская_пастушья_собака.jpeg);
+
+}
+.img3 {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	background-image: url(../img/бордер_колли.jpg);
+	
+}

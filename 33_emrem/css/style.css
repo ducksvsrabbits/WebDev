@@ -1,0 +1,9 @@
+.vh {
+	height: 30vh;
+	width: 100%;
+
+}
+.vminvmax{
+	height: 30vmax;
+	width: 30vmin;
+ }

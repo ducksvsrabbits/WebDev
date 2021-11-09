@@ -1,0 +1,28 @@
+@font-face {
+font-family: "ptserif"; 
+src: url("../fonts/PTF55F.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+.header {
+	width: 100vw;
+	max-height: 50px;
+	background-color: yellow;
+	font-size: 20px;
+	margin: auto;
+}
+
+.page {
+	display: flex;
+
+}
+
+.column {
+	display: flex;
+	width: calc((100% - 30px)/3);
+	min-height: 80vh;
+	justify-content: space-between;
+	align-items: stretch;
+
+}
