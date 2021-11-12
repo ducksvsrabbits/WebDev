@@ -6,49 +6,69 @@ font-weight: normal;
 } 
 
 .header {
-	display: flex;
-	width: 100vw;
-	max-height: 50px;
+	width: 98vw;
+	max-height: 150px;
+  	min-height: 50px;
 	background-color: yellow;
-	font-size: 20px;
+	font-size: 15px;
 	margin: auto;
+	align-content: center;
+	padding: 20px;
+	text-align: center;
+}
+.h1 {
+  	margin: auto;
 }
 
 .page {
 	display: flex;
+	padding: 50px;
 	justify-content: space-between;
 	align-items: stretch;
-}
+	margin: auto;
+} 
 
 .column {
 	display: flex;
-	width: calc((100% - 30px)/3);
-	min-height: 80vh;
+	width: calc((100% - 100px)/3);
 	border: 1px solid black;
-}
-.img1 {
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 100%;
-	background-image: url(../img/астралийская_овчарка.jpeg);
-}
-.img1 {
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 100%;
-	background-image: url(../img/астралийская_овчарка.jpeg);
-}
-.img2 {
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 100%;
-	background-image: url(../img/австралийская_пастушья_собака.jpeg);
+  	flex-direction: column;
 
 }
-.img3 {
+.p.h2 {
+	display: flex;
+	margin: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.img1 {
+  	background-image: url(../img/австралийская_овчарка.jpeg);
 	background-size: cover;
 	background-position: center;
 	padding-bottom: 100%;
-	background-image: url(../img/бордер_колли.jpg);
+}
+.img2 {
+  	background-image: url(../img/австралийская_пастушья_собака.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
 	
+}
+.img3 {
+  	background-image: url(../img/бордер_колли.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+footer {
+	width: 98vw;
+	max-height: 150px;
+  	min-height: 50px;
+	background-color: yellow;
+	font-size: 30px;
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	padding: 20px;
 }
